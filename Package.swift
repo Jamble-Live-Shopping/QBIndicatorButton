@@ -3,20 +3,15 @@ import PackageDescription
 
 let package = Package(
     name: "QBIndicatorButton",
-    platforms: [
-        .iOS(.v15)
-    ],
     products: [
         .library(
             name: "QBIndicatorButton",
-            targets: ["QBIndicatorButton"]
-        ),
+            targets: ["QBIndicatorButton"]),
     ],
-    dependencies: [],
     targets: [
         .target(
             name: "QBIndicatorButton",
             path: "QBIndicatorButton/Classes"
-        )
+            )
     ]
 )

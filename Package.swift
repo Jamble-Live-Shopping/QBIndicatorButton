@@ -18,10 +18,7 @@ let package = Package(
     targets: [
         .target(
             name: "QBIndicatorButton",
-            path: "QBIndicatorButton/Classes",
-            swiftSettings: [
-                .define("SWIFT_PACKAGE")
-            ]
+            path: "QBIndicatorButton/Classes"
         )
     ]
 )
